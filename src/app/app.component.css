@@ -1,0 +1,13 @@
+.newTextClass{
+    display: flex;
+    justify-content: center;
+}
+.smart-grid-dialog.open .column {
+    flex-direction: row;
+  
+}
+
+.smart-window.smart-grid-dialog [editor]:not([template=checkBox]) {
+    max-width: 400px;
+    width: 300px;
+}
